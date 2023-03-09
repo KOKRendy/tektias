@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+/* First View */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #06002e;
+}
+
+.view {
+    height: 130vh;
+}
+
+.first {
+    background-image: url(img/content-img.png);
+    background-size: 40em;
+    background-position: center 20vh;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.paralax {
+    transition: 1s ease-in-out;
+    background-size: 30em;
+    background-position: center 130vh;
+}
+
+.paralax-back {
+    transition: 0.5s ease-in-out;
+}
+
+
+.text {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.text-dark-web {
+    font-family: 'Poppins', sans-serif;
+    color: #06002e;
+}
+
+.text-logo-wrapper {
+    width: 185px;
+    padding: 40px;
+}
+
+
+.learn-more-wrapper {
+    margin-top: 70vh;
+    padding: 20px;
+    text-align: end;
+    font-weight: 500;
+    color: white;
+}
+
+/* End First View */
+
+
+/* Second View */
+
+
+.second {
+    background-image: url(/img/background-2.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+}
+
+.card-second {
+    background-color: #9D8CFF;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+
+
+/* End Second View */
+
+
+/* Third View */
+
+.aop-header {
+    padding: 100px;
+}
+
+.card-all {
+    display: flex;
+    justify-content: end;
+    margin-top: 100px;
+    padding-right: 70px;
+}
+
+
+.card-products {
+    background-image: linear-gradient(to right bottom, #e9bcf1, #e1b7f1, #d8b2f1, #ceaef2, #c3aaf2, #b9acf5, #afaff7, #a5b1f9, #9cbafc, #96c2fd, #93c9fd, #93d0fb);
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 5px;
+    height: 250px;
+}
+
+.card-products h3 {
+    height: 130px;
+}
+
+/* End Third View */
+
+
+/* Fourth View */
+
+.fourth {
+    background-image: linear-gradient(90deg,
+            hsl(175deg 45% 94%) 0%,
+            hsl(182deg 83% 80%) 9%,
+            hsl(186deg 91% 62%) 21%,
+            hsl(204deg 90% 56%) 37%,
+            hsl(228deg 89% 66%) 54%,
+            hsl(257deg 93% 72%) 72%,
+            hsl(260deg 92% 79%) 88%,
+            hsl(257deg 88% 87%) 100%);
+
+}
+
+.star {
+    background-image: url(img/star.png);
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: 100px;
+}
+
+.wwd-header {
+    color: #06002e;
+    padding-top: 100px;
+    padding-left: 100px;
+    width: 53%;
+    height: fit-content;
+}
+
+
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    width: 550px;
+}
+
+.grid-item {
+    background-color: #06002e;
+    color: white;
+}
+
+.grid-item img {
+    display: block;
+    margin-left: auto;
+    height: 60spx;
+}
+
+.img-wrapper {
+    height: 100px;
+}
+
+.card-statistic {
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 5px;
+    height: 200px;
+}
+
+.display-none {
+    opacity: 0;
+}
+
+.grid-container-wrapper {
+    display: flex;
+    justify-content: end;
+}
+
+/* End Fourth View */
+
+/* Five View */
+
+.five {
+    background-image: url(img/background-5.png);
+}
+
+.slogan {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.slogan-text {
+    margin-top: 25%;
+    text-align: center;
+    width: 60%;
+    color: #BEB0FA;
+}
+
+/* End Five View */
+
+/* Six View */
+
+.six {
+    background-image: url(img/background-6.png);
+    background-size: cover;
+}
+
+.header-six {
+    color: #06002E;
+    padding: 70px;
+}
+
+.header-six h1 {
+    padding-top: 70px;
+}
+
+
+.grid-six {
+    display: flex;
+    justify-content: end;
+    padding-right: 30px;
+}
+
+
+.card-six {
+    background-color: #9D8CFF;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.card-six h1 {
+    font-weight: 400;
+}
+
+.card-six img {
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+}
+
+/* End Six VIew */
+
+/* Seven View */
+
+.seven {
+    background-image: url(img/background-7.png);
+    background-repeat: no-repeat;
+    background-position: 80% 50%;
+    background-size: 20rem;
+}
+
+.header-seven {
+    color: white;
+    padding-top: 300px;
+    padding-left: 100px;
+    padding-bottom: 250px;
+}
+
+.header-seven h1 {
+    letter-spacing: 3px;
+}
+
+.bottom-seven {
+    display: flex;
+    padding-right: 80px;
+    justify-content: end;
+    color: white;
+    width: 100%;
+
+}
+
+.bottom-seven p {
+    letter-spacing: 5px;
+    width: 30%;
+    margin: 0 auto;
+    padding-top: 7%;
+    text-align: center;
+}
+
+.card-seven {
+    margin: 5px;
+    border-radius: 5px;
+    padding: 20px;
+    width: 310px;
+    background-color: #9D8CFF;
+    color: #06002e;
+}
+
+.card-seven h3 {
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.card-seven h5 {
+    font-weight: 300;
+}
+
+.mobile {
+    display: none;
+}
+
+/* End Seven View */
+
+
+
+/* MOBILE VIEW */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* First View */
+
+    .first {
+        background-size: 15rem;
+        background-position: center 50%;
+    }
+
+    .learn-more-wrapper {
+        margin-top: 60vh;
+    }
+
+    /* End First View */
+
+    /* Second View */
+    .second {
+
+        font-size: small;
+        padding: unset;
+        padding-top: 150px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .card-second {
+        width: unset;
+    }
+
+    /* End Second View */
+
+    /* Third View */
+
+    .third {
+        height: max-content;
+        padding: 20px;
+    }
+
+    .aop-header {
+        text-align: center;
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .card-all {
+        padding-right: unset;
+        flex-direction: column;
+        margin-top: unset;
+        margin-top: 25px;
+    }
+
+    .card-products {
+        width: unset;
+        margin-top: 25px;
+    }
+
+    /* End Third View */
+
+    /* Fourth View */
+
+    .fourth {
+        height: max-content;
+        padding: 10px;
+    }
+
+    .wwd-header {
+        padding: unset;
+        padding-left: unset;
+        width: 100%;
+        padding: 10px;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        text-align: center;
+    }
+
+    .grid-container {
+        all: unset;
+    }
+
+    .display-none {
+        display: none;
+    }
+
+
+    .grid-container-wrapper {
+        justify-content: center;
+    }
+
+    /* End Fourth View */
+
+
+    /* Five View */
+    .five {
+        background-size: 22rem;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+
+
+
+    .slogan-text {
+        width: 80%;
+        font-size: large;
+        margin-top: 82%;
+    }
+
+    /* End Five View */
+
+    /* Six View */
+    .six {
+        height: max-content;
+        padding-bottom: 100px;
+    }
+
+    .header-six {
+        padding: 10px;
+        padding-top: 50px;
+    }
+
+    .header-six h1 {
+        text-align: center;
+        font-size: large;
+        padding: 10px;
+    }
+
+    .grid-six {
+        padding-right: unset;
+        padding: 10px;
+    }
+
+    /* End Six View */
+
+    /* Seven View */
+    .mobile {
+        display: unset;
+    }
+
+    .seven {
+        background-position: unset;
+        background-position: 10%;
+    }
+
+    .dekstop {
+        display: none;
+    }
+
+    .bottom-seven {
+        all: unset;
+    }
+
+    .bottom-seven p {
+        color: white;
+        padding-bottom: 20px;
+    }
+
+    .header-seven {
+        padding: unset;
+        padding: 19px;
+    }
+
+    .display-none-mobile {
+        display: none;
+    }
+
+    /* End Seven View */
+}
